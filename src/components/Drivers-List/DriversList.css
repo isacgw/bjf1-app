@@ -1,9 +1,15 @@
 
+
+#drivers h5 {
+    margin-top: 2rem;
+}
+
 .drivers-list {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: .6rem;
+    margin-top: 3.5rem;
 }
 
 .driver-item {
@@ -19,6 +25,10 @@
     gap: .8rem;
 }
 
+.driver-item:focus {
+    background: transparent;
+}
+
 .driver-item-image{
     /* background: red; */
     border-radius: .7rem;
@@ -32,6 +42,14 @@
 
 }
 
-.driver-item-infos h5 {
+.driver-item-infos h6 {
     font-weight: 100;
+}
+
+/* ----- Media Queries ----- */
+
+@media screen and (min-width: 1024px) {
+    .driver-item {
+        width: 50%;
+    }
 }

@@ -1,9 +1,10 @@
 import React from 'react'
 import './DriversList.css'
 import ReactCountryFlag from "react-country-flag"
-import ISAC from '../../assets/isac-img.png'
-import KIERAN from '../../assets/Kieran.png'
-import JOHAN from '../../assets/Johan.png'
+import DEFAULT from '../../assets/Profile-Images/Default.jpeg'
+import ISAC from '../../assets/Profile-Images/isac-img.png'
+import KIERAN from '../../assets/Profile-Images/Kieran.png'
+import JOHAN from '../../assets/Profile-Images/Johan.png'
 
 const data = [
   {
@@ -24,21 +25,21 @@ const data = [
     id: 3,
     name: 'XtraZinikaNL',
     team: 'Red Bull',
-    image1:  ISAC,
+    image1:  DEFAULT,
     nation: 'NL'
   },
   {
     id: 4,
     name: 'Kaynine22',
     team: 'McLaren',
-    image1:  KIERAN,
+    image1:  DEFAULT,
     nation: 'GB'
   },
   {
     id: 5,
     name: 'GibArn',
     team: 'Alpine',
-    image1:  ISAC,
+    image1:  DEFAULT,
     nation: 'SE'
   },
   {
@@ -65,7 +66,7 @@ const DriversList = () => {
                 </div>
                 <div className="driver-item-infos">
                 <h4>{name} <ReactCountryFlag countryCode={nation} /></h4>
-                <h5>{team}</h5>
+                <h6>{team}</h6>
             </div>
             {/* <ReactCountryFlag countryCode={nation} /> */}
         </li>
