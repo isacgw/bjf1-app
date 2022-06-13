@@ -1,0 +1,27 @@
+#highlights {
+    background: var(--color-bg-light);
+}
+
+#highlights h2 {
+    padding: 2rem 0 0;
+}
+
+.video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 4rem;
+    height: 100vh;
+  }
+  
+  .video-responsive iframe {
+    height: 50%;
+    width: 100%;
+    display: block;
+    background: blue;
+  }
