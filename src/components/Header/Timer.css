@@ -1,0 +1,17 @@
+.countdown-timer {
+    padding: 1rem;
+    margin: 0.5rem 0;
+    height: 4rem;
+    border: solid 2px var(--white);
+    border-radius: 0.8rem;
+    font-size: .8rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.two-number {
+    width: 2ch;
+}

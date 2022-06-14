@@ -5,6 +5,8 @@ import DEFAULT from '../../assets/Profile-Images/Default.jpeg'
 import ISAC from '../../assets/Profile-Images/isac-img.png'
 import KIERAN from '../../assets/Profile-Images/Kieran.png'
 import JOHAN from '../../assets/Profile-Images/Johan.png'
+import KENNY from '../../assets/Profile-Images/Kenny.png'
+
 
 const data = [
   {
@@ -48,6 +50,13 @@ const data = [
     team: 'Ferrari',
     image1:  JOHAN,
     nation: 'SE'
+  },
+  {
+    id: 7,
+    name: 'xF_Keninho70',
+    team: 'AlphaTauri',
+    image1:  KENNY,
+    nation: 'BE'
   },
 ]
 
