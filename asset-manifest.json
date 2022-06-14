@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/bjf1-app/static/css/main.0e16c866.css",
-    "main.js": "/bjf1-app/static/js/main.642f362a.js",
+    "main.css": "/bjf1-app/static/css/main.e04bde39.css",
+    "main.js": "/bjf1-app/static/js/main.f2b134eb.js",
     "static/media/Johan.png": "/bjf1-app/static/media/Johan.da152e364d79281a2c07.png",
+    "static/media/Kenny.png": "/bjf1-app/static/media/Kenny.662e853a4197cd396b5f.png",
     "static/media/Kieran.png": "/bjf1-app/static/media/Kieran.9de83ac4be7d1f86d5d4.png",
     "static/media/BJ Logo.png": "/bjf1-app/static/media/BJ Logo.a65ccbc8ed2525c693ed.png",
     "static/media/isac-img.png": "/bjf1-app/static/media/isac-img.896f475fd912fb211fb2.png",
     "static/media/Default.jpeg": "/bjf1-app/static/media/Default.6defe2ba6e96e7bad5b4.jpeg",
     "index.html": "/bjf1-app/index.html",
-    "main.0e16c866.css.map": "/bjf1-app/static/css/main.0e16c866.css.map",
-    "main.642f362a.js.map": "/bjf1-app/static/js/main.642f362a.js.map"
+    "main.e04bde39.css.map": "/bjf1-app/static/css/main.e04bde39.css.map",
+    "main.f2b134eb.js.map": "/bjf1-app/static/js/main.f2b134eb.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e16c866.css",
-    "static/js/main.642f362a.js"
+    "static/css/main.e04bde39.css",
+    "static/js/main.f2b134eb.js"
   ]
 }
