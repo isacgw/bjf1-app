@@ -3,14 +3,17 @@ import '../../index.css'
 import './Header.css'
 import BjLogo from '../../assets/icons/BJ Logo.png'
 import Timer from './Timer'
+import WP from '../../assets/wp-2.png'
 
 const Header = () => {
   return (
     <section id="header">
+      <img src={WP} alt="" className='bg-img' />
       <h2 className="title-large">
         BJF1
       </h2>
-      <h3>Next Race:</h3>
+      <h2 className="reloaded">RELOADED</h2>
+      <h3>Season starts in:</h3>
       <Timer
       countdownTimestampsMs={1657825200000}/>
       <div id="header-icon"><img src={BjLogo} alt="" /></div>

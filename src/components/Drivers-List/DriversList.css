@@ -1,4 +1,6 @@
-
+#drivers {
+    min-height: 100vh;
+}
 
 #drivers h5 {
     margin-top: 2rem;
@@ -10,6 +12,7 @@
     align-items: center;
     gap: .6rem;
     margin-top: 3.5rem;
+    padding-bottom: 3.5rem;
 }
 
 .driver-item {

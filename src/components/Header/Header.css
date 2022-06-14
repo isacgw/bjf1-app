@@ -6,9 +6,37 @@
     align-items: center;
 }
 
+.bg-img {
+    position: absolute;
+    height: 100%;
+    width: auto;
+    transform: translateY(-50%);
+    transform: translateX(200px);
+    z-index: 0;
+    filter: grayscale(100%);
+    opacity: .08;
+}
+
 #header h2 {
     z-index: 1;
     margin-top: 4rem;
+}
+
+#header h3 {
+    margin-top: 1.5rem;
+    padding-bottom: .2rem;
+    font-weight: 300;
+}
+
+.reloaded {
+    position: absolute;
+    z-index: 3;
+    color: red;
+    border: 3px solid red;
+    padding: .2rem 1rem;
+    transform: rotate(-5deg);
+    top: 4.8rem;
+    font-size: .9rem;
 }
 
 #header p {
@@ -16,7 +44,7 @@
     font-size: .8rem;
     display: block;
     top: 25%;
-    margin: 5rem 1rem 0;
+    margin: 2rem 1rem 0;
     z-index: 1;
 }
 
