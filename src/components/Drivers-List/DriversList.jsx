@@ -63,7 +63,6 @@ const data = [
 const DriversList = () => {
   return (
     <section id='drivers'>
-      <h5>Meet our</h5>
       <h2>Drivers</h2>
       <ul className="drivers-list">
         {

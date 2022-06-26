@@ -3,12 +3,13 @@ import '../../index.css'
 import './Header.css'
 import BjLogo from '../../assets/icons/BJ Logo.png'
 import Timer from './Timer'
-import WP from '../../assets/wp-2.png'
+import WP from '../../assets/wp-3.png'
 
 const Header = () => {
   return (
     <section id="header">
-      <img src={WP} alt="" className='bg-img' />
+      <img src='https://i.pinimg.com/originals/14/36/c0/1436c0cf2f90e133bd8512036d76c55d.jpg' alt="" className='bg-img-desktop' />
+      <img src={WP} alt="" className='bg-img-mobile' />
       <h2 className="title-large">
         BJF1
       </h2>

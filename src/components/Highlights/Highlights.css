@@ -25,3 +25,27 @@
     display: block;
     background: blue;
   }
+
+  @media screen and (min-width: 1024px) {
+    
+    .video-responsive {
+      overflow: hidden;
+      padding-bottom: 56.25%;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 1.5rem;
+      margin-top: 4rem;
+      height: 100vh;
+    }
+    
+    .video-responsive iframe {
+      height: 50%;
+      width: 50%;
+      display: block;
+      background: blue;
+    }
+  
+}
